@@ -10,6 +10,7 @@ import UIKit
 import Intents
 import LoopKit
 import UserNotifications
+import Firebase
 
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -64,6 +65,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         
         AnalyticsManager.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
 
+        FirebaseApp.configure()
+        
         guard isAfterFirstUnlock else {
             log.default("Launching before first unlock; pausing launch...")
             return false

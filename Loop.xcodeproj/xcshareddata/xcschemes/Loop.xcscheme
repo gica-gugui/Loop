@@ -3,9 +3,79 @@
    LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
-      buildImplicitDependencies = "NO">
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43D9FFCE21EAE05D00AF44BF"
+               BuildableName = "LoopCore.framework"
+               BlueprintName = "LoopCore"
+               ReferencedContainer = "container:Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F75288A1DFE1DC600C322D6"
+               BuildableName = "LoopUI.framework"
+               BlueprintName = "LoopUI"
+               ReferencedContainer = "container:Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43D9001A21EB209400AF44BF"
+               BuildableName = "LoopCore.framework"
+               BlueprintName = "LoopCore-watchOS"
+               ReferencedContainer = "container:Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43A9437D1B926B7B0051FA24"
+               BuildableName = "WatchApp Extension.appex"
+               BlueprintName = "WatchApp Extension"
+               ReferencedContainer = "container:Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43A943711B926B7B0051FA24"
+               BuildableName = "WatchApp.app"
+               BlueprintName = "WatchApp"
+               ReferencedContainer = "container:Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -17,6 +87,20 @@
                BlueprintIdentifier = "432CF87720D8B8380066B889"
                BuildableName = "Cartfile"
                BlueprintName = "Cartfile"
+               ReferencedContainer = "container:Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F70C1DB1DE8DCA7006380B7"
+               BuildableName = "Loop Status Extension.appex"
+               BlueprintName = "Loop Status Extension"
                ReferencedContainer = "container:Loop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
